@@ -120,6 +120,7 @@ color: white;
     font-size:43px;
     font-weight: 900;
     margin-bottom: 20px;
+    
 
 }
 .list-container{
@@ -157,6 +158,9 @@ list-style: square;
    
 
 }
+.work-title{
+    color: white;
+}
 .work-inquiry{
     width: 700px;
     margin: 0 auto;
@@ -182,3 +186,107 @@ list-style: square;
     background-color:blue;
     color: white;
 }
+
+
+ /* srvices secton stule  */
+ .services-container{
+    margin-top: 50px;
+    /* background-color:rgb(0, 0, 0); */
+    color: white;
+    color: black;
+ }
+ .services{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+ }
+.service-1{
+    width: 350px;
+    border: 10px;
+    margin: 20px;
+   /* border: 1px solid rgb(33, 33, 33);  */
+   box-shadow: 8px 8px 16px rgb(17, 16, 16);
+   border-radius: 5px;
+   /* background-color:rgb(8, 8, 8) */
+   /* padding: 10px; */
+}
+.service-description{
+    padding: 15px;
+    line-height: 1.5;
+    /* color: rgb(16, 202, 202); */
+}
+.service-img img{
+width: 100%;
+border-radius: 5px;
+}
+.service-footer{
+    margin-top:10px;
+    display: flex;
+    justify-content:space-between;
+}
+.price-btn{
+    color: red;
+    font-size: 18px;
+}
+.price{
+    font-size: 28px;
+    font-weight: 800;
+}
+.title4{
+    font-size:25px;
+    font-weight: 600;
+}
+.batch-image{
+    position: relative;
+}
+.batch-img{
+   top: -30px;
+   left:85%;
+    width: 70px;
+    position:absolute;
+}
+/* start footer area*/
+.footer-container{
+    padding: 100px;
+    line-height: 1.7;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top:70px;
+  }
+  .footer h5{
+    margin-top:50px;
+    word-spacing: 25px;
+    font-size: 14px;
+    text-align:center;
+    color: #8a8d91;
+  
+  }
+  .footer h5 a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Alegreya SC', serif;
+  }
+  .footer h5 a:hover{
+    color:red;
+    text-decoration: underline;
+  
+  }
+  .footer p{
+    font-size: 16px;
+    text-align:center;
+    color: black;
+  }
+  .footer p a{
+    color:red;
+    text-decoration:none;
+  }
+  .footer p a:hover{
+    color: red;
+    text-decoration: underline;
+  
+  }
+  /* End footer area*/
