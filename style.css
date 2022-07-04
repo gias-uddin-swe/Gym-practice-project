@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     transition: 0.8ms;
+    scroll-behavior: smooth;
 }
 /* menubar style start  */
 .menubar{
@@ -17,7 +18,32 @@
     font-size:53px;
     font-weight: bold;
     font-style: italic;
+    /* color: #262626; */
+  overflow: hidden;   
+  border-right: .10em solid #FF8D8D;
+  white-space: nowrap;   
+  margin: 0 auto;   
+  letter-spacing: .4rem;   
+  animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+
 }
+@keyframes demo-typewriter {
+    from { 
+      width: 0;
+    }
+    to { 
+      width: 100%;
+    }
+  }
+  
+  @keyframes demo-cursor {
+    from, to { 
+      border-color: transparent; 
+  }
+    50% { 
+  border-color: #FF8D8D; 
+    }
+  }
 .menu-items{
     display: flex;
 
@@ -32,7 +58,7 @@
 }
 .menu-items li:hover{
     color: rgb(255, 30, 0);
-    cursor: pointer;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
 }
 
 /* home banner container style start from here  */
